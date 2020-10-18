@@ -1,0 +1,7 @@
+.post {
+  grid-auto-flow: row;
+  background-color: lightgreen;
+  padding: 20px;
+  margin: 30px;
+  width: 80%;
+}

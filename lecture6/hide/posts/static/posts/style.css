@@ -1,0 +1,39 @@
+@keyframes hide {
+  0% {
+    opacity: 1;
+    height: 15px;
+    line-height: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  75% {
+    opacity: 0;
+    height: 15px;
+    line-height: 100%;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  100% {
+    opacity: 0;
+    height: 0;
+    line-height: 0;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+.post {
+  grid-auto-flow: row;
+  background-color: lightgreen;
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 80%;
+  animation-name: hide;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-play-state: paused;
+}
+
+button {
+  float: right;
+}
