@@ -116,4 +116,4 @@ dist
 .pnp.*
 
 # pycache folder
-__pycache__/
+*__pycache__/
