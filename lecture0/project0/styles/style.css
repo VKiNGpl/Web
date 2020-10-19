@@ -1,0 +1,9 @@
+.navbar {
+  justify-content: flex-end;
+}
+
+#search {
+  margin-top: 5%;
+  display: flex;
+  justify-content: center;
+}
